@@ -24,6 +24,9 @@ a:hover {
 .titulo {
     width: 100%;
     height: 900px;
-    background-image: url("../img/rack.jpg");
-    align-items: center;
+    
+}
+
+.titulo img {
+    width: 100%;
 }
