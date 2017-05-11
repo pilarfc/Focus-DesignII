@@ -7,6 +7,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
 }
 
 a {
@@ -29,4 +30,15 @@ a:hover {
 
 .titulo img {
     width: 100%;
+    display: flex;
+}
+
+.titulo p {
+    opacity: 0.2;
+    position: absolute;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 7.5em; 
+    top: 15%;
+    left: 19%;
+    
 }
