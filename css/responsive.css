@@ -1,0 +1,14 @@
+@media (max-width: 480px) {
+    
+    header nav .enlace{
+        display:none; 
+    }
+    
+    header nav a {
+      margin-left: 20%;
+    }
+    
+    .segundaSeccion, .terceraSeccion {
+        display: none;
+    }
+}
