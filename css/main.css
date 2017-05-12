@@ -48,6 +48,8 @@ a:hover {
     
 }
 
+
+
 .terceraSeccion {
     display: flex; 
     flex-direction: row; 
@@ -62,3 +64,45 @@ a:hover {
    text-align: justify; 
 }
 
+
+.formulario {
+  display: flex; 
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../img/escritorio3.jpg");
+  height: 600px;  
+    
+}
+
+.formulario li h1 {
+    font-family: 'Lekton', sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+li input, li textarea{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+    width: 80%; 
+    margin: 2.5%;
+    border: none;
+    background-color: none;
+    opacity: 0.5;
+    
+}
+
+li button {
+  margin-left: 25%;
+  padding: 8px 16px;
+  border: none;
+  background: #333;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  border-radius: 2px;
+}
