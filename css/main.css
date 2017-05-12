@@ -131,3 +131,30 @@ li button {
   letter-spacing: .09em;
   border-radius: 2px;
 }
+
+.final {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    background-color: #1C1C1C;
+    color: white; 
+    font-size: 1em;
+}
+
+.final i{
+    margin-left: 3%; 
+    margin-top: 3%;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.row a {
+    color: white; 
+}
+
+.row a:hover {
+   color: #088A68;
+}
+
