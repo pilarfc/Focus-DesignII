@@ -96,6 +96,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   background-image: url("../img/escritorio3.jpg");
+  width: 100%;
   height: 600px;  
     
 }
